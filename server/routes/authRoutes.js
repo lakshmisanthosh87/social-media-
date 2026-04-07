@@ -7,4 +7,4 @@ const autherRoutes = express.Router();
 autherRoutes.post("/signup", signupValidation, validate, register);
 autherRoutes.post("/login", loginValidation, validate, login);
 
-export default autherRoutes;
+export default autherRoutes
